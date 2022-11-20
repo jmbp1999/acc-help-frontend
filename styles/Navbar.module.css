@@ -1,0 +1,115 @@
+.navbar {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  gap: 10%;
+  height: 96px;
+  padding: 24px 0;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  width: 100 vw;
+}
+
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.link:active {
+  color: #e11d48;
+}
+
+.logo {
+  /* width: 162px; */
+  height: 40px;
+  font-style: normal;
+  font-weight: 460;
+  font-size: 36px;
+  line-height: 40px;
+  /* identical to box height, or 125% */
+
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  letter-spacing: 0.122em;
+  text-transform: uppercase;
+  justify-self: start;
+
+  /* Primary/600 */
+
+  color: #e11d48;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  height: 48px;
+}
+
+.loginButton {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4%;
+  background-color: #ffffff;
+  border-radius: 8px;
+  color: #6d737a;
+  border: 0;
+
+  padding: 12px 24px;
+}
+
+.loginButton:hover {
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.signUpButton {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  width: 163px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 10px;
+  width: 80%;
+  background: #f43f5e;
+  border-radius: 8px;
+  transition: 0.3s;
+  color: #ffffff;
+  border: 0;
+}
+
+.signUpButton:hover {
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1088px) {
+  .navbar {
+    justify-content: space-around;
+  }
+  .navContainer {
+    display: none;
+  }
+}
